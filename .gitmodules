@@ -1,0 +1,24 @@
+[submodule "alarm-service"]
+	path = alarm-service
+	url = https://github.com/jzakka/alarm-service
+[submodule "apigateway-service"]
+	path = apigateway-service
+	url = https://github.com/jzakka/apigateway-service
+[submodule "gather-service"]
+	path = gather-service
+	url = https://github.com/jzakka/gather-service
+[submodule "join-service"]
+	path = join-service
+	url = https://github.com/jzakka/join-service
+[submodule "member-service"]
+	path = member-service
+	url = https://github.com/jzakka/member-service
+[submodule "chat-service"]
+	path = chat-service
+	url = https://github.com/jzakka/chat-service
+[submodule "config-service"]
+	path = config-service
+	url = https://github.com/jzakka/config-service
+[submodule "discovery-service"]
+	path = discovery-service
+	url = https://github.com/jzakka/discovery-service
