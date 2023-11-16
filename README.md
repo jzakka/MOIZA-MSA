@@ -29,3 +29,19 @@ _최종 모임 일정은 이 범위 내에서 결정됨._<br/>
 > 확정된 모임 일정은 가장 많은 참여자들이 참여가능한 시간이다.
 <img width="392" alt="Frame 4" src="https://github.com/jzakka/MOIZA-MSA/assets/105845911/d30e812b-faae-4db7-830e-8917325ccaf7">
 
+## API
+
+|**URL**|**Method**|**Description**|
+|---|---|---|
+|[/gather-service/gathers](https://github.com/jzakka/gather-service/blob/f762e6c84ae1777e6cb62c9f29a2873dc226ce8b/apidocs/CREATE.md)|`POST`|모임 생성|
+|[/gather-service/gathers/:gatherId](https://github.com/jzakka/gather-service/blob/f762e6c84ae1777e6cb62c9f29a2873dc226ce8b/apidocs/GETGATHER.md)|`GET`|단일 모임 조회|
+|[/member-service/members/:memberId](https://github.com/jzakka/member-service/blob/937661df2a70ed628d08e3e7c7fdbd3f2050e54b/apidocs/GETMEMBER.md)|`GET`|단일 회원 조회|
+|[/member-service/members](https://github.com/jzakka/member-service/blob/937661df2a70ed628d08e3e7c7fdbd3f2050e54b/apidocs/SIGNUP.md)|`POST`|회원가입|
+|[/member-service/login](https://github.com/jzakka/member-service/blob/937661df2a70ed628d08e3e7c7fdbd3f2050e54b/apidocs/LOGIN.md)|`POST`|로그인|
+|[/join-service/joins](https://github.com/jzakka/join-service/blob/cd195222b18f449225ae5c57c36a90d91a6e83af/apidocs/JOIN.md)|`POST`|모임 참여|
+|[/join-service/:gatherId/joins](https://github.com/jzakka/join-service/blob/cd195222b18f449225ae5c57c36a90d91a6e83af/apidocs/GETJOINS.md)|`GET`|모임 참여자 조회|
+|[/join-service/joins/:memberId](https://github.com/jzakka/join-service/blob/cd195222b18f449225ae5c57c36a90d91a6e83af/apidocs/GETJOINEDGATHERS.md)|`GET`|참여한 모임 조회|
+|[/join-service/joins](https://github.com/jzakka/join-service/blob/cd195222b18f449225ae5c57c36a90d91a6e83af/apidocs/CHANGETIME.md)|`PATCH`|참여 시간 수정|
+|[/join-service/joins](https://github.com/jzakka/join-service/blob/cd195222b18f449225ae5c57c36a90d91a6e83af/apidocs/CANCELJOIN.md)|`DELETE`|모임 참여 취소|
+|[채팅 전송 웹소켓 URL](https://github.com/jzakka/chat-service/blob/4673dbc6846d0585984faa1096f581534b5f8c7f/apidocs/SENDCHAT.md)|STOMP METHOD|채팅 송수신|
+|[/chat-service/chats/:gatherId](https://github.com/jzakka/chat-service/blob/4673dbc6846d0585984faa1096f581534b5f8c7f/apidocs/SENDCHAT.md)|`GET`|채팅방에서 채팅 더 불러오기|
