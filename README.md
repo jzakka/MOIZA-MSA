@@ -29,6 +29,11 @@ _최종 모임 일정은 이 범위 내에서 결정됨._<br/>
 > 확정된 모임 일정은 가장 많은 참여자들이 참여가능한 시간이다.
 <img width="392" alt="Frame 4" src="https://github.com/jzakka/MOIZA-MSA/assets/105845911/d30e812b-faae-4db7-830e-8917325ccaf7">
 
+## 아키텍처구조
+
+![moiza_msa_architecture](https://github.com/jzakka/MOIZA-MSA/assets/105845911/b92d382a-694c-47bc-bb43-84fd4471b870)
+
+
 ## API
 
 |**URL**|**Method**|**Description**|
@@ -45,3 +50,9 @@ _최종 모임 일정은 이 범위 내에서 결정됨._<br/>
 |[/join-service/joins](https://github.com/jzakka/join-service/blob/cd195222b18f449225ae5c57c36a90d91a6e83af/apidocs/CANCELJOIN.md)|`DELETE`|모임 참여 취소|
 |[채팅 전송 웹소켓 URL](https://github.com/jzakka/chat-service/blob/4673dbc6846d0585984faa1096f581534b5f8c7f/apidocs/SENDCHAT.md)|STOMP METHOD|채팅 송수신|
 |[/chat-service/chats/:gatherId](https://github.com/jzakka/chat-service/blob/4673dbc6846d0585984faa1096f581534b5f8c7f/apidocs/SENDCHAT.md)|`GET`|채팅방에서 채팅 더 불러오기|
+
+## issue archive
+
+- [JPA 연관관계 삭제 N+1](https://velog.io/@mouse4786/JPA-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%EA%B0%84-%EC%82%AD%EC%A0%9C-%EC%A3%BC%EC%9D%98%EC%A0%90)
+- [확장성을 고려한 채팅 서비스](https://velog.io/@mouse4786/%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B1%84%ED%8C%85-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98-%EA%B5%AC%ED%98%84)
+- [httpservlet request바디는 컨트롤러에서만 읽자](https://velog.io/@mouse4786/%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-mvc-%EC%9D%B8%ED%84%B0%EC%85%89%ED%84%B0)
