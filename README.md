@@ -56,3 +56,4 @@ _최종 모임 일정은 이 범위 내에서 결정됨._<br/>
 - [JPA 연관관계 삭제 N+1](https://velog.io/@mouse4786/JPA-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84%EA%B0%84-%EC%82%AD%EC%A0%9C-%EC%A3%BC%EC%9D%98%EC%A0%90)
 - [확장성을 고려한 채팅 서비스](https://velog.io/@mouse4786/%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%B1%84%ED%8C%85-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98-%EA%B5%AC%ED%98%84)
 - [httpservlet request바디는 컨트롤러에서만 읽자](https://velog.io/@mouse4786/%EA%B0%9C%EC%9D%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-mvc-%EC%9D%B8%ED%84%B0%EC%85%89%ED%84%B0)
+- [채팅 비동기 처리](https://velog.io/@mouse4786/%EC%B1%84%ED%8C%85-%EA%B8%B0%EB%8A%A5-%EC%84%B1%EB%8A%A5-%EA%B0%9C%EC%84%A0)
